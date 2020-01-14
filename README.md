@@ -71,10 +71,6 @@ If you can see smb.conf, then you are vulnerable.
 
 ## Installation
 
-To install the requirements, you will need to run the command below. Note that it is important to have version
-1.24.3 or lower for python-urllib3 installed in order for the attack and scanner to work successfully. There
-was a new RFC implementation for urllib3 and bug has been submitted to maintainers to fix:
-
-https://github.com/urllib3/urllib3/pull/1487
+To install the requirements, you will need to run the command below. 
 
 pip3 install -r requirements.txt
